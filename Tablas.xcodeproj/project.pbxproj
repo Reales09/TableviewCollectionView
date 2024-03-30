@@ -15,6 +15,8 @@
 		B7BD29F02BB3DA3900D5CC86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BD29EE2BB3DA3900D5CC86 /* LaunchScreen.storyboard */; };
 		B7BD29F82BB695D300D5CC86 /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD29F72BB695D300D5CC86 /* DetallesViewController.swift */; };
 		B7BD29FA2BB75D3F00D5CC86 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD29F92BB75D3F00D5CC86 /* TableViewController.swift */; };
+		B7BD29FC2BB7F05D00D5CC86 /* ColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD29FB2BB7F05D00D5CC86 /* ColeccionViewController.swift */; };
+		B7BD29FE2BB7F3B800D5CC86 /* CeldaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD29FD2BB7F3B800D5CC86 /* CeldaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B7BD29F12BB3DA3900D5CC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7BD29F72BB695D300D5CC86 /* DetallesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
 		B7BD29F92BB75D3F00D5CC86 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B7BD29FB2BB7F05D00D5CC86 /* ColeccionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColeccionViewController.swift; sourceTree = "<group>"; };
+		B7BD29FD2BB7F3B800D5CC86 /* CeldaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				B7BD29F12BB3DA3900D5CC86 /* Info.plist */,
 				B7BD29F72BB695D300D5CC86 /* DetallesViewController.swift */,
 				B7BD29F92BB75D3F00D5CC86 /* TableViewController.swift */,
+				B7BD29FB2BB7F05D00D5CC86 /* ColeccionViewController.swift */,
+				B7BD29FD2BB7F3B800D5CC86 /* CeldaCollectionViewCell.swift */,
 			);
 			path = Tablas;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BD29FC2BB7F05D00D5CC86 /* ColeccionViewController.swift in Sources */,
 				B7BD29F82BB695D300D5CC86 /* DetallesViewController.swift in Sources */,
+				B7BD29FE2BB7F3B800D5CC86 /* CeldaCollectionViewCell.swift in Sources */,
 				B7BD29E82BB3DA3100D5CC86 /* ViewController.swift in Sources */,
 				B7BD29E42BB3DA3100D5CC86 /* AppDelegate.swift in Sources */,
 				B7BD29FA2BB75D3F00D5CC86 /* TableViewController.swift in Sources */,
